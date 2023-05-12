@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: inventory-quarkus
+  description: |
+    inventory-quarkus
+  annotations:
+    github.com/project-slug: serenamarie125/inventory-quarkus
+    backstage.io/kubernetes-id: inventory-quarkus
+spec:
+  type: website
+  owner: janus-authors
+  lifecycle: experimental
